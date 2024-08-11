@@ -42,15 +42,17 @@ h1 {
     flex-grow: 1;
     margin-right: 10px;
 
-
-
 }
 
 .iconosNota {
     gap: 2vh;
     display: flex;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
-
+.iconosNota:hover {
+    opacity: 1;
+}
 .listaNotasCompleto {
     list-style: none;
     text-align: center;
@@ -86,3 +88,4 @@ h1 {
     font-family: "Chakra Petch", sans-serif;
     
 }
+
