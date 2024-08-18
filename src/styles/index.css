@@ -43,6 +43,17 @@ h1 {
     margin-right: 10px;
 
 }
+.btn{
+    margin: 4vh;
+    width: 30vh;
+    
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .iconosNota {
     gap: 2vh;
@@ -58,8 +69,6 @@ h1 {
     text-align: center;
     font-size: 3vh;
     flex-grow: 1;
-
-    
 
 }
 
